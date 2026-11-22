@@ -1,0 +1,14 @@
+# 依赖与构建产物：不要提交，交给 Netlify 在 Linux 上重新安装/构建
+node_modules/
+public/
+db.json
+.deploy_git/
+
+# 编辑器 / 系统杂项
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+npm-debug.log*
+yarn-error.log*
